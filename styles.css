@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image:url("b.jpg")
+}
+
+.eyes {
+  position: fixed;
+  top: 47%;
+  left: 140px;
+  transform: translateY(-30%);
+  transform: rotate(-0.040turn);
+  width: 100%;
+  text-align: center;
+}
+
+.eyes1 {
+  position: fixed;
+  top: 84%;
+  left: 100px;
+  transform: translateY(-30%);
+  transform: rotate(0.040turn);
+  width: 100%;
+  text-align: center;
+}
+.eye {
+  width: 90px;
+  height: 75px;
+  left: 40px;
+  top: -180px ;
+  background: whitesmoke;
+  
+  display: inline-block;
+  margin: 30px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgb(241, 183, 111);
+}
+
+.eye1 {
+  width: 60px;
+  height: 65px;
+  left: -420px;
+  top: -195px ;
+  background:white;
+  display: inline-block;
+  margin: 1px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid rgb(243, 212, 217);
+
+}
+
+.ball1 {
+  width: 30px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.ball {
+  width: 30px;
+  height: 40px;
+  
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+h1{
+text-align:center;
+text-shadow: 0 0 10px red, 0 0 10px blue;
+}
